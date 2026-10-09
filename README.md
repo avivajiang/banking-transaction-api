@@ -1,35 +1,28 @@
-Banking Transaction API
+# Banking Transaction API
 
 A simple banking application built with Python, Flask, Pandas, and SQLite.
 
-Features
+## Features
 
-Stores and retrieves sample banking transactions.
+- Stores and retrieves sample banking transactions.
+- Calculates total deposits, withdrawals, and net balance changes.
+- Exposes transaction data through REST API endpoints.
+- Tests API responses and validates transaction calculations.
 
-Calculates total deposits, withdrawals, and net balance changes.
-
-Exposes transaction data through REST API endpoints.
-
-Tests API responses and validates transaction calculations.
-
-Technologies
+## Technologies
 
 Python, Flask, Pandas, SQLite, REST APIs
 
-Example Results
+## Example Results
 
-Sample transactions: 5
+- Sample transactions: 5
+- Completed transactions: 4
+- Total deposits: $1,050
+- Total completed withdrawals: $100
+- Net balance change: $950
 
-Completed transactions: 4
-
-Total deposits: $1,050
-
-Total completed withdrawals: $100
-
-Net balance change: $950
-
-How to Run
+## How to Run
 
 Install the required libraries, run the notebook cells in order, and use the Flask test client to test the API endpoints.
 
-Note: This project simulates banking transactions using fictional data. 
+*Note: This project simulates banking transcations using fictional data.*
